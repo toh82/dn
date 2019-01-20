@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{site.lang}}">
+  <head>
+    {{> header/html}}
+    {{> header/seo 
+        title="Ihr Ansprechpartner im Arbeitsrecht in Friedberg und Umgebung" 
+        description="Versierte Rechts­beratung mit Erfahrung, fair und transparent. Individuell ausgerichtete, rechtliche und/oder steuerliche Beratung." 
+        previewImage="ulf_muecke.jpg"}}
+
+    <title>{{site.header.title_prefix}} - Ihr Ansprechpartner im Arbeitsrecht in Friedberg und Umgebung</title>   
+    {{> analytics}} 
+  </head>
+  <body>
+
+    <div class="background  background--city">
+        <div class="container">
+            <div class="topbar">            
+                <div class="topbar__logo"><a href="/index.html">{{> logo_svg}}</a></div>
+                <!--div class="topbar__navigation">{{> navigation}}</div-->
+            </div>   
+        </div>
+
+        <header class="header container">
+            <div class="header__headline">
+                <h1>Ihr Ansprechpartner im Arbeitsrecht<br><span class="text--xsmall">in Friedberg und Umgebung</span></h1>
+            </div>
+            <div class="header__cta  text--right">
+                <a href="tel:{{phone.plain}}"><i class="fas fa-phone"></i>&nbsp;&nbsp;{{phone.formatted}}</a>
+                <ul class="list  list--unstyled  list--inline">
+                    <li class="list__item"><a title ="Profil von Ulf Mücke auf Xing" target="_blank" rel="noopener" href="{{xing}}" class="social-link"><i class="fab fa-xing"></i><span class="visually-hidden">Xing Profil</span></a></li>
+                    <li class="list__item"><a title ="Profil von Ulf Mücke auf LinkedIn" target="_blank" rel="noopener" href="{{linkedin}}" class="social-link"><i class="fab fa-linkedin-in"></i><span class="visually-hidden">LinkedIn Profil</span></a></li>
+                    <li class="list__item"><a title ="Google Maps Standort von Büro Ulf Mücke" target="_blank" rel="noopener" href="{{location}}" class="location-link"><i class="fas fa-map-marked-alt"></i><span class="visually-hidden">In Google Maps öffnen</span></a></li>
+                </ul>                   
+            </div>                 
+        </header>
+    </div>  
+
+    <div class="container">
+        <div class="cnt  cnt--one">
+            <div class="badge  text--center">
+                <br><br>
+                <i class="fas fa-certificate"></i><br>
+                <strong>Seit 1998</strong>
+            </div>
+            <div class="text--right">
+                <img class="portrait" src="assets/media/ulf_muecke.jpg" alt="">
+            </div>
+            <div>
+                <div class="headline  headline--akzent">
+                    <div class="headline__sub">Konflikte vermeiden/lösen</div>     
+                    <h2 class="headline__main">Balance zwischen Arbeitgeber und Arbeitnehmer</h2>
+                </div>
+                <p>Auf die Balance zwischen den Interessen der Arbeitgeber und Arbeitnehmer kommt es an — vermeiden Sie Konflikte, lösen Sie bestehende umfassend und schnell.</p>
+                <p>Auch hier ist Wissen gepaart mit Erfahrung der Schlüssel zum Erfolg. Meine langjährige Erfahrung sollten Sie nutzen.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="grid  grid--cg  grid--1-md2">
+            <div>
+                <h3>Kündigung aus Sicht des Arbeitgebers</h3>
+                <p>Kein Unternehmer kündigt gerne Mitarbeitern – hat er doch in der Regel erhebliche Mittel in deren Einarbeitung und Qualifikation investiert. Trotzdem lässt sich dieser Schritt manchmal nicht vermeiden. Sei es aus betriebswirtschaftlichen Gründen oder aus verhaltensbedingten Gründen. Da der Arbeitnehmerschutz in Deutschland durch Gesetze und Gerichte sehr ausgeprägt ist, werden an eine wirksame Kündigung hohe Anforderungen gestellt. Ich unterstütze Sie gerne im Trennungsprozess, beginnend mit der Formulierung einer wirksamen Kündigung und endend mit der Übergabe des Arbeitszeugnisses. Damit entlasten Sie Ihre Personalabteilung nicht nur von einer ungewohnten, sondern auch von einer emotional schwierigen Aufgabe und sichern so den reibungslosen Fortgang des Tagesgeschäfts.</p>
+            </div>
+            <div>
+                <h3>Kündigung aus Sicht des Arbeitnehmers</h3>
+                <p>Haben Sie das Gefühl, bei der Sozialauswahl hat es mit Ihnen den Falschen getroffen oder entspricht das Arbeitszeugnis nicht dem, was Sie wirklich gleistet haben? In dieser für Sie emotional sehr angespannten Situation benötigen Sie fachkundige und wegen der oftmals sehr kurzen Fristen auch schnelle Beratung. Nehmen Sie Kontakt mit mir auf, damit ich Ihren Fall und das weitere Vorgehen mit Ihnen besprechen kann.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    {{> quote-block autor="Ruth Cohn" text="Wir haben wenig Zeit, deshalb müssen wir langsam vorgehen."}}
+    </div>
+
+    {{> office}}
+    {{> footer}}    
+  </body>
+</html>
