@@ -109,6 +109,10 @@ a {
 p + p, 
 .block * + * {
     margin-top: 1rem;
+
+    br {
+      margin-top: 0;
+   }
 }
 
 img {
