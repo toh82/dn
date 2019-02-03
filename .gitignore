@@ -1,6 +1,7 @@
 node_modules
 deploy
 
+web/assets/lib
 web/assets/js
 web/assets/css
 web/assets/media

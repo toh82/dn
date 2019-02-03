@@ -1,43 +1,40 @@
 <footer class="footer">
-  <div class="container">
-
-    <div class="grid  grid--footer">
-      <div class="cnt">
+  <div class="block">
+    <div class="row">
+      <div class="col-xs-12  col-sm-6  col-md-3  cnt">
         <h2 class="cnt__header">Anschrift:</h2>
         <div class="cnt__content"><p>
           <strong>{{address.company}}</strong><br>
           {{address.street}}<br>{{address.zipcode}} {{address.place}} ({{address.loc-country}})<br>
-          <a class="location-link" href="{{location}}" rel="noopener" target="_blank" title="Google Maps Standort von Büro Ulf Mücke"><i class="fas fa-map-marked-alt"></i><span class="visually-hidden">In Google Maps öffnen</span></a></p>
+          <a class="location-link" href="{{location}}" rel="noopener" target="_blank" title="Google Maps Standort von {{address.company}}"><i class="fas fa-map-marked-alt"></i><span class="visually-hidden">In Google Maps öffnen</span></a></p>
         </div>   
       </div>
 
-      <div class="cnt">
+      <div class="col-xs-12  col-sm-6  col-md-3  cnt">
         <h2 class="cnt__header">Kontakt:</h2>
         <div class="cnt__content">
           <p class="contact"><a class="phone" href="tel:{{phone.plain}}" title="Telefon"><i class="fas fa-phone"></i> {{phone.formatted}}</a></p>
           <p class="contact"><i class="fas fa-fax"></i> {{fax}}</p>
-          <p class="contact"><a class="mail" href="mailto:mail@ra-stb-muecke.de" title="E-Mail"><i class="fas fa-envelope"></i> {{email}}</a></p>
-
-          <ul class="list  list--unstyled  list--inline">
-            <li class="list__item"><a href="{{xing}}" title="Profil von Ulf Mücke auf Xing" class="social-link" target="_blank" rel="noopener"><i class="fab fa-xing"></i><span class="visually-hidden">Xing Profil</span></a></li>
-            <li class="list__item"><a href="{{linkedin}}" title="Profil von Ulf Mücke auf LinkedIn" class="social-link" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i><span class="visually-hidden">LinkedIn Profil</span></a></li>
-          </ul>
+          <p class="contact"><a class="mail" href="mailto:{{email}}" title="E-Mail"><i class="fas fa-envelope"></i> {{email}}</a></p>
         </div>
       </div>
-      <div class="cnt">
-        <h2 class="cnt__header">Öffnungszeiten:</h2>
-        <div class="cnt__content"><p>
-          <strong>Mo / Di / Mi:</strong> 08:00 - 12:30 Uhr <br>und 13:30 - 17:00 Uhr<br>
-          <strong>Do: </strong> 08:00 - 12:30 Uhr <br>und 13:30 - 19:00 Uhr<br>
-          <strong>Fr: </strong> 08:00 - 14:00 Uhr </p>
-        </div>     
+
+      <div class="col-xs-12  col-md-6  cnt  grid__item  grid__item--md2">
+        <h2 class="cnt__header">{{address.company}}</h2>
+        <div class="cnt__content">
+          <p>Viele behaupten sie seien eine Full Service Agentur – das dn*-Team nicht.
+            Wir sind eine digitale Spezialeinheit, die weiterhilft. 
+            Andere können vielleicht alles, aber dann höchst wahrscheinlich nur ein bisschen. 
+            Das Team kann nicht alles, aber das, was es kann, kann es nahezu perfekt und 
+            behält durch geniale Pläne und die Konstruktion gewiefter Strategien die Oberhand für seine Kunden.</p>
+        </div>
       </div>
     </div>
 
     <div class="cnt">
       <div class="cnt__content">
-        <a class="link" href="impressum.html">Impressum</a> / <a class="link" href="datenschutz.html">Datenschutzerklärung</a>
+        <a class="link" href="impressum.html">Impressum</a> / <a class="link" href="impressum.html#datenschutz">Datenschutz</a>
       </div>
     </div>
-  </div>
+ </div>
 </footer>

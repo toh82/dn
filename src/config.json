@@ -6,12 +6,12 @@
       "static": ""
     },
     "header": {
-      "title_prefix": "Ulf Mücke",
+      "title_prefix": "digitalnaturals*",
       "keywords": ""
     },
     "google_analytics": {
-      "id": "UA-124540454-1",
-      "active": true
+      "id": "",
+      "active": false
     }
   },
   "blog": {
@@ -20,21 +20,25 @@
       "folder": "posts/"
     }
   },
-  "author": "Ulf Mücke",
-  "email": "mail@ra-stb-muecke.de",
-  "xing": "https://www.xing.com/profile/Ulf_Muecke2",
-  "linkedin": "https://www.linkedin.com/in/ulf-m%C3%BCcke-22104465",
-  "location": "https://goo.gl/maps/LURaSyZNN1m",
-  "phone": {
-    "plain": "+4960319631677",
-    "formatted": "+49 (0) 60 31/9 63 16 77"    
+  "author": "digitalnaturals*",
+  "email": "info@digitalnaturals.de",
+  "social": {
+    "xing": "#",
+    "linkedin": "#",
+    "twitter": "#",
+    "facebook": "#"    
   },
-  "fax": "+49 (0) 60 31/9 63 16 78",
+  "location": "https://goo.gl/maps/XgLBGx7mR272",
+  "phone": {
+    "plain": "+4961812998452",
+    "formatted": "+49 (0) 6181 299 84 52"    
+  },
+  "fax": "+49 (0) 6181 299 84 52",
   "address": {
-    "company": "RA & StB Ulf Mücke",
-    "street": "Schützenrain 15",
-    "zipcode": "61169",
-    "place": "Friedberg",
+    "company": "digitalnaturals* smc GmbH",
+    "street": "Martin-Luther-King-Str. 12",
+    "zipcode": "63452",
+    "place": "Hanau",
     "loc-country": "Hessen",
     "country": "DE"
   }

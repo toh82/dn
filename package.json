@@ -10,6 +10,7 @@
     "autoprefixer": "^8.2.0",
     "cheerio": "^1.0.0-rc.2",
     "cssnano": "^3.10.0",
+    "flexboxgrid": "^6.3.1",
     "front-matter": "^2.3.0",
     "gulp": "^3.9.1",
     "gulp-compile-handlebars": "^0.6.1",
@@ -23,14 +24,14 @@
     "handlebars": "^4.0.11",
     "hbs-blog": "^1.4.0",
     "imagemin-mozjpeg": "^7.0.0",
-    "micromodal": "^0.3.2",
     "normalize-css": "^2.3.1",
     "postcss-import": "^11.1.0",
     "precss": "^3.1.2",
-    "remarkable": "^1.7.1",
     "standard": "^11.0.1",
-    "through2": "^2.0.3",
     "underscore": "^1.8.3",
     "zepto": "^1.2.0"
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
   }
 }

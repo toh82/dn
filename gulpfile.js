@@ -49,7 +49,7 @@ gulp.task('js', function () {
 
 gulp.task('copy', function () {
   var gulpCopy = require('gulp-copy')
-  var sourceFiles = ['']
+  var sourceFiles = ['node_modules/flexboxgrid/dist/flexboxgrid.min.css']
   var destination = 'web/assets/lib'
 
   return gulp.src(sourceFiles)
@@ -77,7 +77,7 @@ gulp.task('css', function () {
 })
 
 gulp.task('default', ['hbs', 'css'])
-gulp.task('build', ['hbs', 'css', 'images'])
+gulp.task('build', ['hbs', 'css', 'images', 'copy'])
 gulp.task('watch', function () {
   return gulp.watch('./src/**/*', ['hbs', 'css'])
 })

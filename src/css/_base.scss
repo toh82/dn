@@ -1,8 +1,8 @@
 body {
   margin: 0;
   color: var(--color__primary);
-  background-color: var(--color__base);
-  font-family: 'Noto Sans', sans-serif;
+  background-color: #ebecf0;
+  font-family: 'Roboto', sans-serif;
   font-weight: var(--font__weight--regular);
   font-size: calc(0.6rem + 1vw);
   line-height: 1.4;
@@ -39,6 +39,7 @@ h3 {
 
 h1 {
   font-size: calc(1.8rem + 1vw);
+  font-family: 'Roboto Slab', sans-serif;
 
   @media (min-width: $break-medium) {
       font-size: 2.75rem;
@@ -46,11 +47,8 @@ h1 {
 }
 
 h2 {
-  font-size: calc(1rem + 1vw);
-
-  @media (min-width: $break-medium) {
-      font-size: 1.5rem;
-  }
+  font-size: calc(1.4rem + 1vw);
+  font-family: 'Roboto Slab', sans-serif;
 
   + p {
     margin-top: 1rem;
@@ -109,7 +107,7 @@ a {
 }
 
 p + p, 
-main * + * {
+.block * + * {
     margin-top: 1rem;
 }
 
